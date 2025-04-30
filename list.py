@@ -1,13 +1,13 @@
 # var1="revanasiddesh"
 # var2="siddesh"
 
-# # for j in var2:
-# #     t=0
-# #     for i in var1:
-# #         if i==j :
-# #             print(j,end=" ")
-# #             t=t+1
-# #             print(t,end=" ")
+# for j in var2:
+#     t=0
+#     for i in var1:
+#         if i==j :
+#             print(j,end=" ")
+#             t=t+1
+#             print(t,end=" ")
 
 # var1="revanasiddesh"
 # var2="siddesh"
@@ -15,24 +15,13 @@
 # for i in var2:
 #     if i not in result:
 #         result=result+i
+        
 # for j in result:
 #     t = var1.count(j)#count occurences of j in var1
 #     print(j, end=" ")
 #     print(t, end=" ")
 #     print()
 
-# var1="revanasiddesh"
-# var2="siddesh"
-# count=0
-# for i in range(0,len(var1)):
-#     for j in range(0,len(var2)):
-#         if var1[i]==var2[j]:#different for find and count*++
-#             print(var2[j],end=" ")
-#             count+=1
-# if count==1:
-#     print("not present",count)
-# else:
-#     print("present",count)
 
 
 
@@ -42,8 +31,8 @@
 #     print(i,end=" ")
 
 
-# print(chr(65),end=" ")
-# print(ord("A"),end=" ")
+# print(chr(66),end=" ")
+# # print(ord("A"),end=" ")
 
 # a=[1,2,3,4,5,]*10
 # print(a)
@@ -128,21 +117,61 @@
 # else:
 #     print("password is valid")
 
-n=input("enter the 6 digit pin")
-m=len(n)
-s=list(n)
-if  m<6 or m>7:
-    print("password is less or more than 6 characters")
-elif  s[0].isalpha() or s[1].isalpha() or s[2].isalpha() or s[3].isalpha() or s[4].isalpha() or s[5].isalpha():
-    print("password can not be start with that special character or digit")
-else:
-    print("password is valid")
-    
+# n=input("enter the 6 digit pin")
+# m=len(n)
+# s=list(n)
+# if  m<6 or m>7:
+#     print("password is less or more than 6 characters")
+# elif  s[0].isalpha() or s[1].isalpha() or s[2].isalpha() or s[3].isalpha() or s[4].isalpha() or s[5].isalpha():
+#     print("password can not be start with that special character or digit")
+# else:
+#     print("password is valid")
+list_a=["revanasiddesh","siddesh","ram","hanuman"]
+list_a[0]="ram"
+print(list_a)
+# for i in list_a:
+#     print(type(i),end=" ")
+# print(type(list_a))
+# print(id(list_a[0:4]))
+
+
+
+
 
 
 
 
     
+    
+    
+# n=input("enter the number and letters   ")
+
+# words = n.split()
+# m=[]
+# for i in words:
+#     if i.isdigit():
+#         m.append(float(i))
+        
+# m.sort()
+# print("sorted numbers are",m)
+# # print(min(m))
+# # print(max(m))
+# # print(sum(m))
+        
+        
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+    
+        
     
     
 

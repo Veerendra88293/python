@@ -1,5 +1,5 @@
 # num=4
-# sr=num**0.5  square root of num
+# sr=num**0.5  #square root of num
 # print(sr)
 
 # y=int(input("enter the starting"))
